@@ -1,0 +1,6 @@
+> motif1
+tttcggat
+> motif2
+cggttag
+>motif3
+tatcgttaaa

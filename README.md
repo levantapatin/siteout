@@ -4,4 +4,4 @@ SiteOut allows to remove specific nucelotide motifs, such as trancription factor
 
 To run SiteOut locally you need to compile Patser (http://stormo.wustl.edu/resources.html) and give it execution permits. Once you've done that, you will have to edit line 147 in SiteOut.py to indicate your path to Patser
 
-os.system("your_path_to_patser/patser-v3b -w -v -p -f fileName -c -l %.4f > %s " % (cutoff, tempFile))
+* os.system("your_path_to_patser/patser-v3b -w -v -p -f fileName -c -l %.4f > %s " % (cutoff, tempFile)) *

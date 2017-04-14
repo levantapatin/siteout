@@ -9,7 +9,6 @@ SiteOut allows to remove specific nucelotide motifs, such as trancription factor
 *os.system("your_path_to_patser/patser-v3b -w -v -p -f fileName -c -l %.4f > %s " % (cutoff, tempFile))*
 
 2) Once you have Patser ready in your system, place the FMs you wish to use inside a folder called 'pwm', placed inside the same folder as siteout.py and the rest of the execution files. You can then run SiteOut:
-
 *python siteout.py Pvalue GCcontent  SpGCcontent Sequences.txt motifs.txt*
 
 

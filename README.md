@@ -14,9 +14,9 @@ SiteOut allows to remove specific nucelotide motifs, such as trancription factor
 
 *python siteout.py Pvalue GCcontent  SpGCcontent Sequences.txt motifs.txt*
 
-- Pvalue is the threshold P value for binding motif identification
-- GCcontent is the GC content of the motif-free sequence that SitePut will design
-- SpGCcontent is the average GC content of the genome of the species under study
-- Sequences.txt is the sequence design file: plain file with the functional sequences that won't be touched by SiteOut intercalated with the length of the motif-free spacers between them. [Example](Sequences.txt)
-- motifs.txt is a file with the explicit motifs to be avoided. [Example](motifs.txt)
+- **Pvalue** is the threshold P value for binding motif identification
+- **GCcontent** is the GC content of the motif-free sequence that SitePut will design
+- **SpGCcontent** is the average GC content of the genome of the species under study
+- **Sequences.txt** is the sequence design file: plain file with the functional sequences that won't be touched by SiteOut intercalated with the length of the motif-free spacers between them. [Example](Sequences.txt)
+- **motifs.txt** is a file with the explicit motifs to be avoided. [Example](motifs.txt)
 
